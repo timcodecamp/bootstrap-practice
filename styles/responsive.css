@@ -1,0 +1,256 @@
+
+@media only screen and (max-width: 1300px) {
+    .pinboard-content {
+        grid-template-columns: 40% 40%;
+    }
+
+    .testimonial-page main {
+        background-position: center;
+        padding-bottom: 150px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .course-page-top-banner {
+        height: 85vh;
+    }
+
+    .slider {
+        height: 85vh;
+    }
+
+    .slide-buttons {
+        top: 50%;
+    }
+
+    .slide-buttons .svg-inline--fa {
+        font-size: 2em;
+    }
+
+    .about {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about h3 {
+        text-align: center;
+    }
+
+    /* course page */ 
+    
+    .course-levels {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 0px;
+    }
+
+    .course-level-text {
+        text-align: center;
+    } 
+
+    .course-levels img {
+        width: 100%;
+    }
+    
+    .class-intro {
+        width: 40%;
+    }
+
+    /* contact page */
+
+    .contact-top {
+        flex-direction: column;
+    }
+
+    
+
+    .contact-us {
+        margin-bottom: 50px;
+        padding-top: 100px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .slide-buttons {
+        top: 40%;
+    }
+
+    .slider {
+        height: 75vh;
+    }
+
+    .course-page-top-banner {
+        height: 75vh;
+    }
+
+    .slide-buttons h2 {
+        font-size: 2em;
+    }
+
+    .course-page-top-banner {
+        padding-top: 50px;
+    }
+
+    .quote h2 {
+        font-size: 2.2em;
+    }
+
+    .call-to-action a {
+        font-size: 2.2em;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    
+    .testimonial-page main {
+        padding-bottom: 200px;
+    }
+
+    .pinboard-content {
+        grid-template-columns: 80%;
+    }
+
+    .testimonial-page main h2 {
+        font-size: 2em;
+    }
+
+    .slider {
+        height: 65vh;
+    }
+
+    .course-page-top-banner {
+        height: 65vh;
+    }
+
+    .slide-buttons {
+        top: 30%;
+    }
+
+    .quote h2 {
+        font-size: 1.75em;
+    }
+
+    .call-to-action a {
+        font-size: 1.75em;
+    }
+
+    .gallery-image {
+        grid-template-columns: 40% 40%;
+    }
+
+    .footer-social-media {
+        float: none;
+        margin: auto;
+        justify-content: center;
+        padding-top: 40px;
+    }
+
+    /* contact */
+
+    .contact-top h2 {
+        font-size: 2em;
+    }
+
+    
+}
+
+@media only screen and (max-width: 630px) {
+    .class-intro {
+        width: 80%;
+    }
+
+    
+}
+
+@media only screen and (max-width: 500px) {
+
+     /* general settings */
+
+    .slider {
+        height: 45vh;
+        top: 50px;
+    }
+    .course-page-top-banner {
+        height: 45vh;
+    }
+
+    .slide-buttons {
+        top: 25%;
+    }
+
+    .slide-buttons .svg-inline--fa {
+        font-size: 1.3em;
+    }
+
+    .slide-buttons h2 {
+        font-size: 1.3em;
+    }
+}
+
+@media only screen and (max-width: 500px) { 
+
+    .testimonial-page main h2 {
+        font-size: 1.5em;
+    }
+
+    .slider {
+        height: 30vh;
+    }
+
+    .course-page-top-banner {
+        height: 30vh;
+    }
+
+    .gallery-image {
+        grid-template-columns: 75%;
+    }
+
+    .quote h2 {
+        font-size: 1.3em;
+        padding-top: 100px;
+    }
+
+    .call-to-action a {
+        font-size: 1.3em;
+    }
+
+
+    .slide-buttons .svg-inline--fa {
+        font-size: 1em;
+    }
+
+    .slide-buttons h2 {
+        font-size: 1em;
+    }
+
+    .contact-top h2 {
+        font-size: 1.5em;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+
+    
+    
+    .slide-buttons {
+        top: 155px;
+    }
+
+    .slide-buttons .svg-inline--fa {
+        font-size: 1em;
+    }
+
+
+    .quote h2 {
+        font-size: 1em;
+    }
+
+
+    .call-to-action a {
+        font-size: 1em;
+    }
+
+    
+
+}

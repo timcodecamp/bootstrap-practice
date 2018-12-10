@@ -1,0 +1,223 @@
+/*style sheet*/
+
+/*******************************************
+css reset
+*******************************************/
+
+@charset "utf-8";
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+    font-family: 'Didact Gothic', sans-serif;
+    
+}
+
+h1, h2, h3, h4, h5, h6 {
+
+	font-family: 'Didact Gothic', sans-serif;
+	color: #c8c9ca;
+
+}
+
+p {
+
+font-family: 'Didact Gothic', sans-serif;
+color: #c8c9ca;
+
+}
+
+a {
+'font-family: 'Barlow Condensed', sans-serif;
+color: #c8c9ca;
+}
+
+ol, ul {
+	list-style: none;
+	font-family: 'Barlow Condensed', sans-serif;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* menu on desktop */
+
+.main-menu {
+    background-color:white;
+    position:fixed;
+    z-index: 999;
+    width: 100%;
+    height: 60px;
+    padding: 10px;
+    box-shadow: 0 2px 1px -1px gray;
+}
+
+.main-menu ul {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.mobile-social-media {
+    display: none;
+}
+.menu-no-logo {
+    width: 50%;
+}
+
+
+.menu-no-logo ul {
+    justify-content: space-around;
+    height: 100%;
+}
+
+.menu-no-logo ul li a {
+    text-decoration: none;
+    color: #205fad;
+}
+
+/* call to action */
+
+.call-to-action {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.call-to-action a  {
+    color: #205fad;
+    text-decoration: none;
+    font-size: 3em;
+   
+}
+
+/* footer */
+
+footer {
+    background-color: #a1cde6;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    content:"";
+    display: table;
+    width: 100%;
+    clear: both;
+}
+
+.footer-social-media {
+    display: flex;
+    float: right;
+}
+
+.footer-social-media a {
+    color: #205fad;
+}
+
+.footer-social-media li {
+    padding-right: 20px;
+}
+
+.footer-contact-info p {
+    color: #205fad;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.footer-contact-info .svg-inline--fa {
+    color: #205fad;
+}
+
+.testimonial-page main {
+    background-image: url("../images/pinboard.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+
+.testimonial-page main h2 {
+    font-size: 3em;
+    text-align: center;
+    color: #205fad;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+
+.pinboard-content {
+    /* position: absolute; */
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    justify-content: space-around;
+    width: 80%;
+    grid-gap: 30px;
+    
+    margin: auto;
+    
+}
+
+.test {
+    background-color: yellow;
+    width: 75%;
+    height: auto;
+    padding: 25px;
+    -webkit-box-shadow: 0 2px 12px rgba(0,0,0,.5);
+    -moz-box-shadow: 0 2px 12px rgba(0,0,0,.5);
+    box-shadow: 0 1px 2px #000;
+    -webkit-transform: rotate(-.5deg);
+    -moz-transform: rotate(-.5deg);
+    -o-transform: rotate(-.5deg);
+
+}
+
+.test h4 {
+    font-size: 1.5em;
+    padding-bottom: 15px;
+    color: black;
+}
+
+.test p {
+    color: black;
+}
+
+.test:hover {
+    transform: scale(1.1);
+}
